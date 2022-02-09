@@ -1,8 +1,46 @@
-.cabecalho-moda, .cabecalho-casa {
-    background-color: #BB86fc;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.produto-moda, .produto-casa {
+h1 {
+    margin: 20px 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.tabela-moda {
+    width: 20%;
+    margin: 10px;
+}
+
+.tabela-moda th {
+    padding: 10px;
+    background-color: #BB86FC;
+    color: #fff;
+}
+
+.tabela-moda td {
+    padding: 10px;
+    background-color: #424250;
+    color: #fff;
+}
+
+.tabela-casa {
+    width: 15%;
+    margin: 10px;
+}
+
+.tabela-casa th {
+    padding: 10px;
+    background-color: #00C4B4;
+    color: #fff;
+}
+
+.tabela-casa td {
+    padding: 10px;
     background-color: #424250;
     color: #fff;
 }
